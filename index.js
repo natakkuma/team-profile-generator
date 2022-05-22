@@ -87,7 +87,7 @@ const addManager = () => {
     ])
     .then((answers) => {
         const manager = new Manager(answers.name, answers.id, answers.email, answers.officeNumber);
-        teamArr.push(manager);
+        teamArray.push(manager);
         switch(answers.addTeam) {
             case 'Engineer':
                 addEngineer();
@@ -171,7 +171,7 @@ const addEngineer = () => {
     ])
     .then((answers) => {
         const engineer = new Engineer(answers.name, answers.id, answers.email, answers.github);
-        teamArr.push(engineer);
+        teamArray.push(engineer);
         switch(answers.addTeam) {
             case 'Engineer':
                 addEngineer();
@@ -255,7 +255,7 @@ const addIntern = () => {
     ])
     .then((answers) => {
         const intern = new Intern(answers.name, answers.id, answers.email, answers.school);
-        teamArr.push(intern);
+        teamArray.push(intern);
         switch(answers.addTeam) {
             case 'Engineer':
                 addEngineer();
