@@ -96,7 +96,7 @@ const addManager = () => {
                 addIntern();
                 break;
             default:
-                generateFile('./dist/index.html', generateHTML(teamArr))
+                generateFile('./dist/index.html', generateHTML(teamArray))
         }
     })
 }
@@ -180,7 +180,7 @@ const addEngineer = () => {
                 addIntern();
                 break;
             default:
-                generateFile('./dist/index.html', generateHTML(teamArr))
+                generateFile('./dist/index.html', generateHTML(teamArray))
         }
     })
 }

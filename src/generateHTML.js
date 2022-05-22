@@ -89,21 +89,21 @@ generateHTML = (data) => {
 
         //Call generateManager Fucntion
         if (role === 'Manager') {
-            const managerCard = generateManager(employee);
+            const managerCard = generateManager(Employee);
 
             cardArray.push(managerCard);
         }
 
         //Call generateEngineer Function
         if (role === 'Engineer') {
-            const engineerCard = generateEngineer(employee);
+            const engineerCard = generateEngineer(Employee);
 
             cardArray.push(engineerCard);
         }
 
         //Call genrateIntern Function
         if (role === 'Intern') {
-            const internCard = generateIntern(employee);
+            const internCard = generateIntern(Employee);
 
            cardArray.push(internCard);
         }
