@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: rgb(146, 145, 221);
+    --secondary: white;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+    background-color: var(--primary);
+    color: var(--secondary);
+    font-size: 50px;
+}
+
+.card-header {
+    background-color: var(--primary);
+    color: var(--secondary);
+    padding-left: 2%;
+    padding-top: 1%;
+}
+
+.card-content {
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
