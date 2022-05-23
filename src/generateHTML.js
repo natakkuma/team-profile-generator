@@ -43,7 +43,7 @@ const generateEngineer = function (Engineer) {
             <ul>
                 <li>ID: ${Engineer.getId()}</li>
                 <li>Email: <a href="mailto:${Engineer.getEmail()}">${Engineer.getEmail()}</a></li>
-                <li>GitHub: <a href="https://github.com/${Engineer.getGitHub()}">${Engineer.getGitHub()}</a></li>
+                <li>GitHub: <a href="https://github.com/${Engineer.getGithub()}">${Engineer.getGithub()}</a></li>
             </ul>
         </div>
     </div>
@@ -52,7 +52,7 @@ const generateEngineer = function (Engineer) {
 }
 
 //Intern Card 
-const generateIntern = function (intern) {
+const generateIntern = function (Intern) {
     return `
     <div class="column is-4">
     <div class="card">
