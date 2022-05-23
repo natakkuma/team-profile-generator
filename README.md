@@ -37,12 +37,8 @@ GIVEN a command-line application that accepts user input
 <li>Inquirer</li>
 </ul>
   
-<h2>Website</h2>
-https://natakkuma.github.io/team-profile-generator/
-
-<h2>Screenshot</h2>
-
-
+<h2>Walkthrough Video Link</h2>
+https://drive.google.com/file/d/1bWtQOx4b894oLG85jxjtgYGZkYoXnnq4/view
 
 <h2>Contribution</h2>
 Made with ❤️ by Natakkuma
